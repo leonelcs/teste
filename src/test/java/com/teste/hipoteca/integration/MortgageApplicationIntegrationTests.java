@@ -1,4 +1,4 @@
-package com.assesment.yatch.integration;
+package com.teste.hipoteca.integration;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
@@ -29,17 +29,17 @@ import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-import com.assesment.yatch.YatchApplication;
-import com.assesment.yatch.model.Amount;
-import com.assesment.yatch.model.Currency;
-import com.assesment.yatch.model.Mortgage;
+import com.teste.hipoteca.MortgageApplication;
+import com.teste.hipoteca.model.Amount;
+import com.teste.hipoteca.model.Currency;
+import com.teste.hipoteca.model.Mortgage;
 
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment= SpringBootTest.WebEnvironment.RANDOM_PORT)
-@ContextConfiguration(classes = {DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class, YatchApplication.class})
+@ContextConfiguration(classes = {DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class, MortgageApplication.class})
 @ActiveProfiles("test")
-public class YatchApplicationIntegrationTests extends AbstractTransactionalJUnit4SpringContextTests {
+public class MortgageApplicationIntegrationTests extends AbstractTransactionalJUnit4SpringContextTests {
 	
     @Autowired
     private WebApplicationContext webApplicationContext;

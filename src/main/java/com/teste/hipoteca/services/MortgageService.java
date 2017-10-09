@@ -1,10 +1,10 @@
-package com.assesment.yatch.services;
+package com.teste.hipoteca.services;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.assesment.yatch.model.InterestRate;
-import com.assesment.yatch.model.Mortgage;
+import com.teste.hipoteca.model.InterestRate;
+import com.teste.hipoteca.model.Mortgage;
 
 public interface MortgageService {
 	

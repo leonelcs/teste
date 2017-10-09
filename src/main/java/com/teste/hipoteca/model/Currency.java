@@ -1,4 +1,4 @@
-package com.assesment.yatch.model;
+package com.teste.hipoteca.model;
 
 /**
  * 

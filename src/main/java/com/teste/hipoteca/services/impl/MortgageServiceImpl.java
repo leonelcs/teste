@@ -1,4 +1,4 @@
-package com.assesment.yatch.services.impl;
+package com.teste.hipoteca.services.impl;
 
 import java.math.BigDecimal;
 import java.text.NumberFormat;
@@ -8,12 +8,12 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.assesment.yatch.model.Amount;
-import com.assesment.yatch.model.InterestRate;
-import com.assesment.yatch.model.Mortgage;
-import com.assesment.yatch.repository.InterestRateRepository;
-import com.assesment.yatch.repository.MortgageRepository;
-import com.assesment.yatch.services.MortgageService;
+import com.teste.hipoteca.model.Amount;
+import com.teste.hipoteca.model.InterestRate;
+import com.teste.hipoteca.model.Mortgage;
+import com.teste.hipoteca.repository.InterestRateRepository;
+import com.teste.hipoteca.repository.MortgageRepository;
+import com.teste.hipoteca.services.MortgageService;
 
 /**
  * 

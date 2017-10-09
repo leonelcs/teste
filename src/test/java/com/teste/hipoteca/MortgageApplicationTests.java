@@ -1,4 +1,4 @@
-package com.assesment.yatch;
+package com.teste.hipoteca;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertFalse;
@@ -15,15 +15,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.assesment.yatch.model.Amount;
-import com.assesment.yatch.model.Currency;
-import com.assesment.yatch.model.InterestRate;
-import com.assesment.yatch.model.Mortgage;
-import com.assesment.yatch.services.MortgageService;
+import com.teste.hipoteca.model.Amount;
+import com.teste.hipoteca.model.Currency;
+import com.teste.hipoteca.model.InterestRate;
+import com.teste.hipoteca.model.Mortgage;
+import com.teste.hipoteca.services.MortgageService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class YatchApplicationTests {
+public class MortgageApplicationTests {
 	
 	@Autowired
 	MortgageService mortService;

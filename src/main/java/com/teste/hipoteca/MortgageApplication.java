@@ -1,4 +1,4 @@
-package com.assesment.yatch;
+package com.teste.hipoteca;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
@@ -9,18 +9,18 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.assesment.yatch.model.Amount;
-import com.assesment.yatch.model.Currency;
-import com.assesment.yatch.model.InterestRate;
-import com.assesment.yatch.model.Mortgage;
-import com.assesment.yatch.repository.InterestRateRepository;
-import com.assesment.yatch.repository.MortgageRepository;
+import com.teste.hipoteca.model.Amount;
+import com.teste.hipoteca.model.Currency;
+import com.teste.hipoteca.model.InterestRate;
+import com.teste.hipoteca.model.Mortgage;
+import com.teste.hipoteca.repository.InterestRateRepository;
+import com.teste.hipoteca.repository.MortgageRepository;
 
 @SpringBootApplication
-public class YatchApplication {
+public class MortgageApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(YatchApplication.class, args);
+		SpringApplication.run(MortgageApplication.class, args);
 	}
 	
 	@Bean

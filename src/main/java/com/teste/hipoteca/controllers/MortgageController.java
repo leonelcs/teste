@@ -1,4 +1,4 @@
-package com.assesment.yatch.controllers;
+package com.teste.hipoteca.controllers;
 
 import java.util.List;
 import java.util.Optional;
@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.assesment.yatch.model.InterestRate;
-import com.assesment.yatch.model.Mortgage;
-import com.assesment.yatch.services.MortgageService;
+import com.teste.hipoteca.model.InterestRate;
+import com.teste.hipoteca.model.Mortgage;
+import com.teste.hipoteca.services.MortgageService;
 
 @RestController
 @RequestMapping("/api")
